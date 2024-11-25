@@ -24,11 +24,11 @@ All resources are provided in private Telegram Chat.
 1. [lesson26](./lesson26) Jenkins Intro
 2. [lesson27](./lesson27) Jenkins Pipeline
 3. [lesson28](./lesson28) Jenkins Administering
-4. [lesson29](./lesson29) Github Actions Intro
-5. [lesson30](./lesson30) Introduction to Terraform
-6. [lesson31](./lesson31) Terraform Files
-7. [lesson32](./lesson32) Cloud Tools Overview
-8. [lesson33](./lesson33) AWS
+4. [lesson29](./lesson29) Introduction to Terraform
+5. [lesson30](./lesson30) Terraform Files
+6. [lesson31](./lesson31) Azure Intro
+7. [lesson32](./lesson32) Azure Web Projects
+8. [lesson33](./lesson33) Azure Administering
 
 ## Month 5 Kubernetes (refreshed soon)
 
@@ -44,25 +44,14 @@ All resources are provided in private Telegram Chat.
 
 ## Month 6 Devops Upgrade
 
-1. [lesson42](./lesson42) Архитектура Микросервисы
-2. [lesson43](./lesson43) Архитектура Паттерны
+1. [lesson42](./lesson42) Основы CI/CD
+2. [lesson43](./lesson43) Архитектура
 3. [lesson44](./lesson44) Проект
 4. [lesson45](./lesson45) Карьера - CV, поиск работы
 5. [lesson46](./lesson46) Подготовка к работе - Soft Skills
 6. [lesson47](./lesson47) Подготовка к работе - Interview
 7. [lesson48](./lesson48) Защита проектов
 8. [lesson49](./lesson49) Заключительная лекция
-
-### Month 2 Docker
-
-1. [lesson9](./lesson9) Docker
-2. [lesson10](./lesson10) Dockerfile
-3. [lesson11](./lesson11) Docker Compose
-4. [lesson12](./lesson12) Grafana
-5. [lesson13](./lesson13) Prometheous
-6. [lesson14](./lesson14) Ansible
-7. [lesson15](./lesson15) Ansible Playbook
-8. [lesson16](./lesson16) Экзамен
 
 ## Working with the repo
 
