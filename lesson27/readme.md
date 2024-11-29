@@ -13,15 +13,6 @@ The upcoming lesson covers the following key topics:
 3. **Permissions**  
    Understand how to manage user roles and permissions in Jenkins to ensure secure and controlled access.
 
-4. **Jenkins Frontend**  
-   Dive into configuring and automating frontend project builds using Jenkins pipelines.
-
-5. **Jenkins Backend**  
-   Learn how to automate and manage backend development workflows with Jenkins.
-
-6. **Jenkins + GitHub Connection**  
-   Understand how to connect Jenkins with GitHub for seamless CI/CD processes, including webhooks and version control integration.
-
 ## Jenkins CLI
 
 Jenkins has a built-in command line interface that allows users and administrators to access Jenkins from a script or shell environment (
