@@ -13,6 +13,8 @@ The upcoming lesson covers the following key topics:
 3. **Jenkins Backend**  
    Learn how to automate and manage backend development workflows with Jenkins.
 
+4. **Miscellaneous Topics**
+
 ## Jenkins Github
 
 Требования - наличия Github, SSH ключей
@@ -217,3 +219,33 @@ pipeline {
 Это гарантирует подготовку бэкенд-среды с FastAPI, включая зависимости Python и Docker для контейнерных развертываний.
 
 ! Тестовый проект Смагул-агая - `https://github.com/Smagicom/fastapitest`
+
+### Дополнительно - Jenkins file
+
+Это ссылка на [ Jenkinsfile ](/lesson28/Jenkinsfile), используемый для автоматизации процесса CI/CD для проекта Node.js с использованием Docker в качестве среды сборки.
+
+Jenkinsfiles пишутся на основе синтаксиса Groovy и определяют конвейер, описывающий процесс сборки, включая шаги, этапы и действия после сборки.
+
+- Зачем нужен?
+
+  - Файл автоматизирует процесс сборки, тестирования и развертывания для проекта Node.js.
+  - Он обеспечивает последовательное выполнение таких задач, как установка зависимостей, запуск тестов и создание готовой к производству сборки.
+  - Использование Docker гарантирует чистую изолированную среду.
+
+```groovy
+agent {
+        docker {
+            image 'node:16-alpine' // Node.js image for your build
+        }
+}
+environment {
+        CI = 'true'
+}
+```
+
+- Агент (выше):
+
+  - Указывает образ Docker node:16-alpine в качестве среды для запуска этапов конвейера.
+  - Обеспечивает совместимость с версией Node.js, необходимой для проекта.
+
+- Переменные среды. `CI = 'true': `настраивает инструменты (например, npm) для распознавания сборки как процесса CI/CD.
