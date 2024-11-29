@@ -19,7 +19,18 @@ You should be familiar with:
 
 All resources are provided in private Telegram Chat.
 
-### Month 4 CI/CD
+### Month 4 CI/CD (fact - Beibarys)
+
+1. [lesson26](./lesson26) Jenkins Intro
+2. [lesson27](./lesson27) Jenkins Pipeline
+3. [lesson28](./lesson28) Jenkins Administering
+4. [lesson29](./lesson29) Github Actions - Intro
+5. [lesson30](./lesson30) Github Actions - Pipelines
+6. [lesson31](./lesson31) Gitlab CI/CD
+7. [lesson32](./lesson32) Gitlab CI/CD
+8. [lesson33](./lesson33) Project
+
+### Month 4 CI/CD (plan - Smagul)
 
 1. [lesson26](./lesson26) Jenkins Intro
 2. [lesson27](./lesson27) Jenkins Pipeline
